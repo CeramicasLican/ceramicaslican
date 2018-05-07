@@ -1,0 +1,123 @@
+<div id="page-wrapper">
+  <div id="page">
+
+
+  <!--Start: Branding and Menu -->
+<div id="stick">
+  <div class="menu">
+    <div class="container">
+      <div class="row">
+        {% if page.header %}
+          <div class="col-xs-6 col-md-4">
+            {{ page.header }}
+          </div>
+        {% endif %}
+        <!-- Navigation -->
+        {% if page.menu %}
+          <div class="col-xs-6 col-md-8">
+            {{ page.menu }} 
+          </div>
+        {% endif %}
+        <!--End Navigation -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Header and Navbar -->
+<header class="main-header">
+
+  <!-- Start: Banner -->
+    {% if page.welcome_banner_text %}
+      <div class="container">
+        <div class="banner">
+          <div class="row">
+            <div class="col-md-12">
+              {{ page.welcome_banner_text }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  <!-- End: Banner -->
+
+
+  <!--Start: Highlighted -->
+    {% if page.highlighted %}
+      <div class="highlighted">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              {{ page.highlighted }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  <!--End: Highlighted -->
+
+</header>
+<!--End Header & Navbar -->
+
+      <!--- Start Messages -->
+      {% if page.messages %}
+        <div class="container">
+          <div class="row">
+              {{ page.messages }}
+          </div>
+        </div>
+      {% endif %}
+      <!---End Messages -->
+
+
+  <!-- start: Container -->
+  <div class="container">
+
+      <!--- Start Left SideBar -->
+      {% if page.sidebar_first %}
+        <div class="sidebar" >
+          <div class = {{sidebarfirst}} >
+            {{ page.sidebar_first }}
+          </div>
+        </div>
+      {% endif %}
+      <!---End Right SideBar -->
+
+      <!--- Start content -->
+      {% if page.content %}
+        <div class="content_layout">
+          <div class={{contentlayout}}>
+            {{ page.content }}
+          </div>
+        </div>
+      {% endif %}
+      <!---End content -->
+
+      <!--- Start Right SideBar -->
+      {% if page.sidebar_second %}
+        <div class="sidebar">
+          <div class={{sidebarsecond}}>
+            {{ page.sidebar_second }}
+          </div>
+        </div>
+      {% endif %}
+      <!---End Right SideBar -->
+      
+    </div>
+    <!--End Content -->
+
+
+<!--Start: Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          {{ page.footera }}
+        </div>
+      </div>
+    </div>
+  </div>
+<!--End: Footer -->
+
+  </div>
+</div>

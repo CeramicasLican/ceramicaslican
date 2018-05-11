@@ -13,13 +13,11 @@ libraries:
 #Regions
 regions:
   header: 'Header'
-  primary_menu: 'Primary Menu'
   menu: 'Menu'
   welcome_banner_text: 'Welcome Banner Text'
   highlighted: 'Highlighted'
   slider: 'Slider'
   page_title: 'Page Title'
-  breadcrumb: 'Breadcrumb'
   messages: 'Messages'
   content: 'Content'
   contenidoa: 'Contenido A'
@@ -32,6 +30,7 @@ regions:
   noticias: 'Noticias'
   contacto: 'Contacto'
   contactoa: 'Contacto A'
+  contactomapa: 'Contacto Mapa'
   sidebar_first: 'Left Sidebar'
   sidebar_second: 'Right Sidebar'
   bottom_first: 'Bottom First Widget'

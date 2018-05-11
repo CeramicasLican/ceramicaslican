@@ -126,7 +126,7 @@ h2.banner {
 
 .noticias {
   background-size: auto auto;
-  color: #fff;
+  color: #ccc;
   background-size: cover;
   position: relative;
   text-align: center;
@@ -135,13 +135,13 @@ h2.banner {
 .noticias:after {
   position: absolute;
   display: block;
-  color: #fff;
+  color: #ffc04c;
   content: "";
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(17, 17, 16, 0.6);
+  background:#f5f5f5;
 }
 
 .noticias .region{
@@ -183,7 +183,7 @@ img {
 }
 
 .menu {
-  background: #fff;
+  background: #f5f5f5;
   padding: 1px 0 1px 0;
 }
 
@@ -258,40 +258,6 @@ margin: 50px 0 50px 0;
   color: #888787;
 }
 
-/* .enlacesdeinteres  {
-  background: #333131;
-  color: #888787;
-  padding: 90px 20px 10px 20px;
-  text-align: center;
-}
-
-.enlacesdeinteres h2 {
-  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1);
-  font-size: 45px;
-  padding: 10px 20px 40px 20px;
-}
-
-.enlacesdeinteres a  {
-  color: #888787;
-  font-size: 16px;
-  text-decoration: none;
-}
-.enlacesdeinteres ul  {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.enlacesdeinteres  li {
-  border-top-color: #888787;
-  border-top: solid 1px #aaa;
-  padding: 5px;
-}
-
-.enlacesdeinteres  li:first-child {
-  border-top-color: #888787;
-  border-top: solid 1px #333131;
-} */
-
 
 .rs  {
   background: #333131;
@@ -300,11 +266,6 @@ margin: 50px 0 50px 0;
   text-align: center;
 }
 
-/*
-.rs { width: 100%; overflow: hidden; }
-.rs ul { list-style: none; position: relative; float: left; display: block; left: 47%; }
-.rs ul li { position: relative; float: left; display: block; right: 50%; }
-*/
 
 .redsocial {
   padding: 40px 0;
@@ -328,7 +289,6 @@ margin: 50px 0 50px 0;
 }
 
 
-
 .footer  {
   background: #333131;
   color: #888787;
@@ -342,7 +302,7 @@ margin: 50px 0 50px 0;
   color: #888787;
   font-family: 'Alegreya Sans';
   font-size: 18px;
-  padding: 60px 0 30px 0;
+  padding: 60px 0 3px 0;
   text-align: center;
 }
 

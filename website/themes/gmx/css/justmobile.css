@@ -23,7 +23,9 @@
         font-size: 20px;
       }
       .slide__data p {
-        font-size: 15px;
+        font-size: 12px;
+        line-height: 12px;
+        padding: 0 10px;
       }
   
     .region-header .brand img {

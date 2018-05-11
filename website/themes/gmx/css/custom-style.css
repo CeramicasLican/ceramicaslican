@@ -81,32 +81,23 @@
   content: "\f09a";
 }
 
-ul.social li a {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
+ul.social li {
+  display: inline;
   font-family: FontAwesome;
-  border-radius: 50%;
-  line-height: 40px;
-  text-align: center;
-  color: #f2f1f1;
-  text-decoration: none;
 }
 
 ul.social li a {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  padding-top: 2px;
-  background: #AEAC16;
-  border-radius: 50%;
-  line-height: 40px;
   text-align: center;
-  color: #333131;
+  text-decoration: none;
+  color: #626262;
+}
+
+ul.social li a:hover {
+  color: #f5f5f5;
 }
 
 ul.social .icon {
-  font-size: 1em;
+  font-size: 18px;
   border: none;
 }
 
@@ -742,6 +733,9 @@ a.has-submenu  {
 	color: #fff;
 }
 
+.region-content {
+  padding: 0 0 40px 0;
+}
 
 .sub-arrow {
 	display: none;
@@ -749,4 +743,16 @@ a.has-submenu  {
 
 .nav-tabs {
   padding: 20px 0;
+}
+
+.slick-dots {
+  padding: 20px;
+  font-size: 20px;
+}
+.slick-dots li button::before {
+  color: #f5f5f5;
+}
+
+.mapa .region-content {
+  padding: 0;
 }

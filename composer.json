@@ -26,6 +26,7 @@
         "drupal/slick_views": "^1.0@RC",
         "drupal/stickynav": "^1.1",
         "drupal/token": "^1.1",
+        "drupal/twig_tweak": "^2.0",
         "drupal/video_embed_field": "^2.0",
         "drupal/webform": "^5.0@RC",
         "drupal/webform_layout_container": "^1.1",

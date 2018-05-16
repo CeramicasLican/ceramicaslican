@@ -81,6 +81,10 @@
           0 0.5em 0 0 black;
     }
 
+    .responsive-menu-toggle-icon span.label {
+        display: none;
+    }
+
 #off-canvas ul {
     background: #333;
 }

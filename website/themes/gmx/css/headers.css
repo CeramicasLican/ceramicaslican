@@ -116,12 +116,16 @@ h2.banner {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(17, 17, 16, 0.6);
+  background: rgba(17, 17, 16, 0.3);
 }
 
 .tienda .region{
   position: relative;
   z-index: 2;
+}
+
+.tiendaspace {
+  padding: 60px 0;
 }
 
 .noticias {

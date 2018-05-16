@@ -26,6 +26,8 @@ regions:
   taller: 'Taller'
   clases: 'Clases'
   tienda: 'Tienda'
+  tiendabanner: 'Tienda Banner'
+  contenttienda: 'Tienda contenido'
   galeria: 'Galería'
   noticias: 'Noticias'
   contacto: 'Contacto'

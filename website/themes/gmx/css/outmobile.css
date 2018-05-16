@@ -35,7 +35,7 @@
       font-style: normal;
       font-weight: normal;
       font-size: 18px;
-      padding-bottom: 80px;
+      padding-bottom: 20px;
     }
 
 
@@ -48,7 +48,9 @@
 
 
 
-
+    .slide__link {
+      margin: 0px auto;
+    }
 
 
 

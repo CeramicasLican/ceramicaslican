@@ -1,7 +1,7 @@
 <div id="page-wrapper">
   <div id="page">
 
-<!--Start: Branding and Menu -->
+  <!--Start: Branding and Menu -->
 <div id="stick">
   <div class="menu">
     <div class="container">
@@ -23,6 +23,16 @@
   </div>
 </div>
 
+      <!--- Start Tienda -->
+        <div class="container-fluid tienda box">
+          <div class="row">
+            <div class="col-md-12">
+              {{ page.tiendabanner }}
+            </div>
+          </div>
+        </div>
+      <!---End Tienda -->
+
       <!--- Start Messages -->
       {% if page.messages %}
         <div class="container">
@@ -33,21 +43,17 @@
       {% endif %}
       <!---End Messages -->
 
+
       <!--- Start content -->
         <div class="container">
-         <div class="row">
+         <div class="row tiendaspace">
           <div class="col-md-12">
-            <h1>{{ page['#title'] }}</h1>
-          </div>
-          <div class="col-md-7 col-md-offset-1">
-            {{ page.content }}
-          </div>
-          <div class="col-md-4">
-            {{ page.sidebar_second }}
+            {{ page.contenttienda }}
           </div>
          </div>
         </div>
       <!---End content -->
+
 
 <!--Start: Footer -->
   <div class="footer">

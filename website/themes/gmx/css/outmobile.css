@@ -29,24 +29,20 @@
       color: #fff;
     }
 
-
     .slide__data p {
       font-family: 'Nixie One';
       font-style: normal;
       font-weight: normal;
       font-size: 18px;
-      padding-bottom: 20px;
+      padding: 0 100px 20px 100px;
     }
-
 
     .slide__title {
       font-size: 60px;
       color: #fff;
-      margin-top: 250px;
+      margin-top: 180px;
       margin-bottom: 20px;
     }
-
-
 
     .slide__link {
       margin: 0px auto;

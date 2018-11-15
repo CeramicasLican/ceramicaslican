@@ -48,11 +48,29 @@
         <div class="container">
          <div class="row tiendaspace">
           <div class="col-md-12">
-            {{ page.contenttienda }}
+            <div class="row">
+              <h2>Instituciones</h2>
+              <dd>{{ drupal_view('productos_tienda', 'block_2') }}</dd>
+            </div>
+            <div class="row">
+              <h2>Línea accesorios</h2>
+              <dd>{{ drupal_view('productos_tienda', 'block_3') }}</dd>
+            </div>
+            <div class="row">
+              <h2>Línea decoración</h2>
+              <dd>{{ drupal_view('productos_tienda', 'block_4') }}</dd>
+            </div>
+            <div class="row">
+              <h2>Línea utilitarios</h2>
+              <dd>{{ drupal_view('productos_tienda', 'block_5') }}</dd>
+            </div>
           </div>
          </div>
         </div>
       <!---End content -->
+
+{#             {{ page.contenttienda }} #}
+
 
 
 <!--Start: Footer -->
